@@ -9,7 +9,8 @@ function setup() {
 # Run
 function run() {
     echo "Running the Python script..."
-    python gui.py
+    export PATH="C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python312:$PATH" #change to your python.exe path
+    python.exe gui.py
 }
 
 # Clean-up
