@@ -15,7 +15,6 @@ function run() {
 # Clean-up
 function clean_up() {
     echo "Cleaning up resources..."
-    # Add any clean-up operations here
 }
 
 # Main execution
