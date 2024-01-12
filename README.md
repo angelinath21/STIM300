@@ -18,6 +18,14 @@ sudo apt update
 sudo apt install python3 python3-venv
 ```
 
+### 2. Install a Virtual Modem Emulator
+To emulate serial communication between two ports, install any virtual modem emulator and establish serial communication with 'full handshake' between both selected COM ports. Virtual Null Modem is recommended. In this code, Serial Read is set as 'COM2' and Serial Write is set as 'COM1'. This can be set according to your needs in the code. 
+
+```bash
+sudo apt update
+sudo apt install python3 python3-venv
+```
+
 ## Running the Code 
 
 #### 1. Clone Repository to your machine
@@ -50,24 +58,15 @@ chmod +x launch.sh
 Enter the desired sample frequency (in Hz) in the provided input field.
 Click the "Enter" button to set the sample frequency.
 
-#### 2. Test Buttons:
-Click "Test Auto," "Test Normal," or "Test Serial" to add corresponding test sequences to the display.
+#### 2. Enter Test Sequence:
+Click "Test Auto," "Test Normal," or "Test Serial" to add corresponding test sequences to the display. If a wrong test is added, clear test sequence and re-input test sequence.
 
 #### 3. Run Test:
 Click the "Run Test" button to start the serial communication based on the defined sample frequency and test sequences.
 
-#### 4. Serial Read Display:
-Serial data received will be displayed in the "Serial Read Display" section.
+#### 4. Start Serial:
+Serial data received will be displayed in the "Serial Read Display" section. Click "Start Serial" to initiate serial communication. This will also open an external terminal that sends 
 
-#### 5. Test Sequence:
-The test sequence can be entered in the "Test Sequence" section.
-
-#### 6. Clear Test Sequence:
-Click "Clear Test Sequence" to clear the test sequence section.
-
-#### 7. Start Serial:
-Click "Start Serial" to initiate serial communication.
-
-#### 8. Status Box:
+#### 5. Status Box:
 The "Status Box" provides information about the system's current status.
 
