@@ -19,7 +19,9 @@ sudo apt install python3 python3-venv
 ```
 
 ### 2. Install a Virtual Modem Emulator
-To emulate serial communication between two ports, install any virtual modem emulator and establish serial communication with 'full handshake' between both selected COM ports. Virtual Null Modem is recommended. In this code, Serial Read is set as 'COM2' and Serial Write is set as 'COM1'. This can be set according to your needs in the code. 
+To emulate serial communication between two ports, install any virtual modem emulator and establish serial communication with 'full handshake' between both selected COM ports. Virtual Null Modem (Trial version) is recommended. In this code, Serial Read is set as 'COM2' and Serial Write is set as 'COM1'. This can be set according to your needs in the code. 
+
+[Virtual Null Modem Download](https://sourceforge.net/projects/com0com/)
 
 ```bash
 sudo apt update
