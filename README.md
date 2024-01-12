@@ -23,11 +23,6 @@ To emulate serial communication between two ports, install any virtual modem emu
 
 [Virtual Null Modem Download](https://sourceforge.net/projects/com0com/)
 
-```bash
-sudo apt update
-sudo apt install python3 python3-venv
-```
-
 ## Running the Code 
 
 #### 1. Clone Repository to your machine
